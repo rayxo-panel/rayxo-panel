@@ -28,7 +28,7 @@
 
 RAYXO manages domains, SSL, PHP, databases, FTP and cron jobs on your own Ubuntu server, with no license fees. It installs with a single command.
 
-| | |
+| Feature | What you get |
 | --- | --- |
 | 🌐 **Domains & redirects** | Subdomains, aliases, pointers, 301/302 redirects. Nginx in front of Apache, so `.htaccess` keeps working. |
 | 🐘 **Multi-PHP** | PHP 7.4 to 8.5 per domain, each site with its own PHP-FPM pool. |
