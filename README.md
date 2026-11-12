@@ -26,16 +26,18 @@
 
 ---
 
-RAYXO manages domains, SSL, PHP, databases, FTP and cron jobs on your own Ubuntu server, with no license fees. It installs with a single command.
+RAYXO manages domains, SSL, PHP, databases, email, DNS, FTP and cron jobs on your own Ubuntu server, with no license fees. It installs with a single command.
 
 | Feature | What you get |
 | --- | --- |
 | 🌐 **Domains & redirects** | Subdomains, aliases, pointers, 301/302 redirects. Nginx in front of Apache, so `.htaccess` keeps working. |
 | 🐘 **Multi-PHP** | PHP 7.4 to 8.5 per domain, each site with its own PHP-FPM pool. |
-| 🔒 **Automatic SSL** | Let's Encrypt issued and renewed for you, or bring your own certificate. |
+| 🔒 **Automatic SSL** | Let's Encrypt issued and renewed for you, including wildcards and `mail.<domain>`, or bring your own certificate. |
 | 🗄️ **MariaDB** | Databases, users and one-click phpMyAdmin. |
+| 📧 **Email hosting** | Mailboxes, forwarders, catch-all, automatic replies, filters and a spam filter per mailbox, with Roundcube webmail. DKIM, SPF and DMARC set up for you: 10/10 on mail-tester. |
+| 🧭 **DNS server** | PowerDNS zones from a template, a record editor for customers, and wildcard SSL through DNS. |
 | 📁 **FTP, SFTP & file manager** | FTPS locked to one folder, SFTP without a shell, and a file manager in the browser. |
-| 📦 **Plans & quotas** | Disk and inode quotas, per-plan limits, bulk suspend and plan changes for hosting providers. |
+| 📦 **Plans & quotas** | Disk and inode quotas, per-plan limits (domains, databases, email accounts and more), bulk suspend and plan changes for hosting providers. |
 | 🛡️ **Isolated accounts** | Every hosting account is its own Linux user. Sign in with 2FA or a passkey. |
 
 ## Install
