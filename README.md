@@ -35,11 +35,11 @@ RAYXO manages domains, SSL, PHP, databases, email, DNS, FTP, SSH and cron jobs o
 | 🔒 **Automatic SSL** | Let's Encrypt issued and renewed for you, including wildcards and `mail.<domain>`, or bring your own certificate. |
 | 🗄️ **MariaDB** | Databases, users, one-click phpMyAdmin, import and export, table repair, and remote access per IP. |
 | 📧 **Email hosting** | Mailboxes, forwarders, catch-all, automatic replies, filters and a spam filter per mailbox, with Roundcube webmail. DKIM, SPF and DMARC set up for you: 10/10 on mail-tester. |
-| 🧭 **DNS server** | PowerDNS zones from a template, a record editor for customers, and wildcard SSL through DNS. |
+| 🧭 **DNS server** | PowerDNS zones from a template (resellers can have their own), a record editor for customers, and wildcard SSL through DNS. |
 | 📁 **FTP, SFTP & file manager** | FTPS locked to one folder, SFTP without a shell, and a file manager in the browser. |
 | 📦 **Plans & quotas** | Disk and inode quotas, per-plan limits (domains, databases, email accounts and more), bulk suspend and plan changes for hosting providers. |
 | 👥 **Resellers** | Reseller plans with overselling; resellers make their own plans and accounts, log in as a customer, and use their own brand, nameservers and sign-in domain. |
-| 📊 **Bandwidth & limits** | Bandwidth counted from the server's logs with 30-day graphs and monthly limits, plus CPU, memory and process limits per account (cgroups). |
+| 📊 **Bandwidth & limits** | Bandwidth counted from the server's logs, 30-day graphs of bandwidth, disk, CPU and memory, monthly limits, plus CPU, memory and process limits per account (cgroups). |
 | ⚙️ **Per-website settings** | Error pages, password-protected folders, hotlink protection, MIME types, CGI, per-site limits, logs and GoAccess visitor reports. |
 | 🔑 **SSH & REST API** | SSH in a jail with SSH keys, and a REST API with login keys. |
 | 🔔 **Alerts & tickets** | Email and Telegram alerts, support tickets and messages to customers. |
